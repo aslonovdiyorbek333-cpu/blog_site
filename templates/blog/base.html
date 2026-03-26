@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 {% load static %}
-<html lang="en">
+<html lang="eng">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}{% endblock %}</title>
-    <link href="{% static 'css/blog.css' %}" rel="stylesheet">
+    <title>{% block title %} {% endblock %}</title>
+<link href="{% static 'css/blog.css' %}" rel="stylesheet">
 </head>
 <body>
-<div id="content">
+<div id ="content">
     {% block content %}
     {% endblock %}
 </div>
 
 <div id="sidebar">
-    <h2>IT-Yangiliklar</h2>
+    <h2>IT-yangiliklari</h2>
     <p>Informatsion texnologiyaga oid yangiliklar</p>
 </div>
-
 </body>
 </html>
